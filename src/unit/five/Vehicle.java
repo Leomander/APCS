@@ -1,8 +1,9 @@
-package unit.five.one;
+package unit.five;
 
 public class Vehicle {
 	
 	private int speed = 0;
+	private String licensePlate = null;
 	
 	public void start() {
 		System.out.println("Starting");
@@ -13,12 +14,20 @@ public class Vehicle {
 	public void turn() {
 		System.out.println("Turning");
 	}
+	
 	public int getSpeed() {
 		return speed;
 	}
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
+	public String getLicense() {
+		return licensePlate;
+	}
+	public void setLicense(String license) {
+		licensePlate = license;
+	}
+	
 	public void increaseSpeed() {
 		speed++;
 	}
@@ -26,5 +35,8 @@ public class Vehicle {
 		speed--;
 	}
 	
+//	public abstract int getMaxSpeed();
+//	public abstract double getGasMileage();
+//	public abstract int getWeight();	
 	
 }

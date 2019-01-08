@@ -1,4 +1,8 @@
-package unit.five.one;
+package unit.five.e1;
+
+import unit.five.Car;
+import unit.five.Truck;
+import unit.five.Vehicle;
 
 public class Main {
 
@@ -37,7 +41,7 @@ public class Main {
 		// ---------------------------------------------------- //
 		
 		System.out.println("\nCar AA: ");
-		// you cannot cast a vehicle to a car.
+		// you cannot cast a vehicle to a car. Vehicles have fewer fields.
 		//Car aa = new Vehicle();
 		//aa.setSpeed(35);
 		//System.out.println(aa.getSpeed());
@@ -67,6 +71,7 @@ public class Main {
 		// ---------------------------------------------------- //
 		
 		System.out.println("\nTruck AAA: ");
+		// you cannot store vehicles or cars as Trucks
 		//Truck aaa = new Vehicle();
 		//aaa.setSpeed(35);
 		//System.out.println(aaa.getSpeed());
