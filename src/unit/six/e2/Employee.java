@@ -46,7 +46,7 @@ public class Employee {
 	}
 	
 	public String toString() {
-		return name + " [" + id + "]: " + dob + " | Skills:" + skills.toString() + " | Projects:" + projects.toString(); 
+		return id+ "; " + name + "; " + dob + "; " + skills.toString() + "; " + projects.toString(); 
 	}
 	
 	public int getID() {return id;}

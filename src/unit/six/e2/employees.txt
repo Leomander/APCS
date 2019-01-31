@@ -1,4 +1,4 @@
-1;Steve Smith;05/05/1956; Sales;ProjectX,ProjectY,ProjectZ
+1;Steve Smith;05/05/1956;Sales;ProjectX,ProjectY,ProjectZ
 14;Bob Jones;01/15/1972;Marketing,IT,Support;ProjectX,ProjectY,ProjectH
 3;Peter John;11/23/1981;Delivery;NoProject
 9;John Adams;06/30/1958;Accounts,Support;ProjectX
